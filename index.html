@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPA</title>
+    <link rel="stylesheet" href="estilos.css" />
+  </head>
+  <body>
+    <header>
+      <!-- MENU PARTE IZQUIERDA -->
+      <nav> 
+        <ul> 
+          <li>PROMOCIONES</li>
+          <li>FOTOS</li>
+          <li>SERVICIOS</li>
+          <li>MAPA</li>
+          <li>CONTACTO</li>
+        </ul>
+      </nav>
+      <!-- MENU PARTE DERECHA -->
+      <div class="menu-der"> 
+        <span class="micuenta">
+          <img src="images/user.png" alt="Icono de usuario" />
+          <span>Mi cuenta</span>
+        </span>
+        <span class="idioma">
+          <span>ES</span>
+          <img src="images/flag.png" alt="Bandera de España" />
+          <img src="images/arrow.png" alt="Flecha" />
+        </span>
+      </div>
+    </header>
+
+    <!-- MAIN  -->
+    <section>
+
+      <!-- PAGINA PRINCIPAL -->
+      <article class="main">
+        <img src="images/main.png" alt="Imagen principal"/>
+        <p class="romanesco">SPA - Jodos</p>
+        <p class="titulo2"> Reg&aacutelate un momento de paz y <br /> consiente a tu piel en el mejor lugar </p>
+      </article>
+
+      <!-- BARRA DE CODIGO Y RESERVACION -->
+      <article class="barra">
+        <span>RESERVA TU CITA:</span>
+        <input type="text" />
+        <span>C&OacuteDIGO PROMOCIONAL : </span>
+        <input id="codigo" type="text" placeholder="CODIGO" />
+      </article>
+
+      <!-- SERVICIOS -->
+      <article class="servicios">
+
+        <!-- Servicio 1 -->
+        <div class="servicio">
+          <div class="titulo">Masaje de pies</div>
+          <div><img src="images/pies.png" alt="Masaje de pies" /></div>
+          <div class="descripcion">Esta es una descripcion del la opcion en cuestion...</div>
+          <span class="precio">$65</span>
+          <a href="">Reservar</a>
+        </div>
+
+        <!-- Servicio 2 -->
+        <div id="m-relajante" class="servicio">
+          <div class="titulo">Masaje relajante</div>
+          <div><img src="images/relajante.png" alt="Masaje de pies" /></div>
+          <div class="descripcion">
+            Esta es una descripcion del la opcion en cuestion...
+          </div>
+          <span class="precio">$60</span>
+          <a href="">Reservar</a>
+        </div>
+
+        <!-- Servicio 3 -->
+        <div class="servicio">
+          <div class="titulo">Masaje con bamb&uacute;</div>
+          <div><img src="images/bambu.png" alt="Masaje de pies" /></div>
+          <div class="descripcion">
+            Esta es una descripcion del la opcion en cuestion...
+          </div>
+          <span class="precio">$58</span>
+          <a href="">Reservar</a>
+        </div>
+
+      </article>
+
+      <!-- BENEFICIOS -->
+      <article class="beneficios">
+        <!-- Título -->
+        <p>Haste socio y prueba nuestro beneficios</p>
+
+        <!-- Beneficio Gold -->
+        <div class="beneficio">
+          <div class="imagen">
+            <img src="images/gold.png" alt="Masaje de pies" />
+          </div>
+          <div class="tipoBnf">GOLD</div>
+          <a href="">VER CONDICIONES</a>
+         <div class="lista">
+          <ul>
+            <li>Gimnasio</li>
+            <li>Piscina</li>
+            <li>Todos los tratamientos</li>
+          </ul> 
+         </div>
+        </div>
+
+        <!-- Beneficio premium -->
+        <div id="premium" class="beneficio">
+          <div class="imagen">
+            <img src="images/premium.png" alt="Masaje de pies" />
+          </div>
+          <div class="tipoBnf">PREMIUM</div>
+          <a href="">VER CONDICIONES</a>
+          <div class="lista"> 
+            <ul>
+            <li>Gimnasio</li>
+            <li>Todos los tratamientos</li>
+          </ul>
+        </div> 
+        </div>
+
+        <!-- Beneficio plate -->
+        <div class="beneficio">
+          <div class="imagen">
+            <img src="images/plate.png" alt="Beneficio plate"/>
+          </div>
+          <div class="tipoBnf" > PLATE </div>
+          <a href="" ">VER CONDICIONES</a>
+           <div class="lista">
+            <ul><li>Tratamientos Faciales</li></ul> 
+          </div>
+        </div>
+      </article>
+    </section>
+<!-- FOOTER -->
+    <footer>
+      <nav id="footer" >
+        <ul>
+          <li>POLITICA DE COOKIES</li>
+          <li>AVISO LEGAL</li>
+          <li>PROTECCI&OacuteN DE DATOS</li>
+          <li>MAPA DEL SITIO</li>
+        </ul>
+      </nav>
+      <div class="redesSociales">
+        <span>S&IacuteGUENOS EN</span>
+        <img src="images/rs_facebook.png" alt="logo de fb">
+        <img src="images/rs_twiter.png" alt="logo de twiter">
+        <img src="images/rs_youtube.png" alt="logo youtube">
+      </div>
+    
+    </footer>
+  </body>
+</html>
